@@ -2,7 +2,7 @@
 
 Unsupervised Multiple Kernel Learning is **© Universitat Pompeu Fabra 2018**. 
 Author: [Sergio Sanchez-Martinez](https://www.linkedin.com/in/sersanmar/) 
-Contributors: * Nicolas Duchateau, Gemma Piella, Constantine Butakoff*
+Contributors: Nicolas Duchateau, Gemma Piella, Constantine Butakoff
 
 **Unsupervised Multiple Kernel Learning** is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
