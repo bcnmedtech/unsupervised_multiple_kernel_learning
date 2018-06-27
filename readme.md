@@ -2,13 +2,21 @@
 
 This is an implementation of unsupervised multiple kernel learning (U-MKL) for dimensionality reduction, which builds upon a supervised MKL technique by Lin et al ([10.1109/TPAMI.2010.183](https://ieeexplore.ieee.org/document/5601738/)). 
 
-
-
 By a combination of feature-based kernels, it allows optimally fusing heterogeneous information and weighting the contribution of each input to the final result. 
 
 U-MKL handles heterogeneous descriptors and reduces their complexity into a simplified, low-dimensional representation, which highlights the main characteristics of the input data. 
 
 Further information can be found in Sanchez-Martinez et al. (https://doi.org/10.1016/j.media.2016.06.007)
+
+## Citation
+
+Published reports of research using this code (or a modified version) may cite the following article that describes the multiple kernel learning for dimensionality reduction approach: 
+
+- Y. Lin, T. Liu, and C. Fuh. Multiple kernel learning for dimensionality reduction. IEEE Transactions on Pattern Analysis and Machine Intelligence, 33:1147–1160, 2011. 
+
+The present MATLAB implementation is the one detailed in: 
+
+- S. Sanchez-Martinez, N. Duchateau, T. Erdei, A.G. Fraser, B.H. Bijnens, and G. Piella. Characterization of myocardial motion patterns by unsupervised multiple kernel learning. Medical Image Analysis, 35:70-82, 2017. 
 
 ## Database
 
