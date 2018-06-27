@@ -1,6 +1,14 @@
-# MKL (Matlab)
+# Unsupervised Multiple Kernel Learning
 
-Multiple kernel learning refers to a set of machine learning methods that use a predefined set of kernels and learn an optimal linear or non-linear combination of kernels as part of the algorithm. Reasons to use multiple kernel learning include a) the ability to select for an optimal kernel and parameters from a larger set of kernels, reducing bias due to kernel selection while allowing for more automated machine learning methods, and b) combining data from different sources (e.g. sound and images from a video) that have different notions of similarity and thus require different kernels. Instead of creating a new kernel, multiple kernel algorithms can be used to combine kernels already established for each individual data source.
+This is an implementation of unsupervised multiple kernel learning (U-MKL) for dimensionality reduction, which builds upon a supervised MKL technique by Lin et al ([10.1109/TPAMI.2010.183](https://ieeexplore.ieee.org/document/5601738/)). 
+
+
+
+By a combination of feature-based kernels, it allows optimally fusing heterogeneous information and weighting the contribution of each input to the final result. 
+
+U-MKL handles heterogeneous descriptors and reduces their complexity into a simplified, low-dimensional representation, which highlights the main characteristics of the input data. 
+
+Further information can be found in Sanchez-Martinez et al. (https://doi.org/10.1016/j.media.2016.06.007)
 
 ## Database
 
@@ -10,6 +18,8 @@ Synthetic left ventricular myocardial velocities that emulate the span of cardia
 2) Delay of the systolic peak velocity
 3) Appearance of a post-systolic event
 4) Fusion during diastole of the negative peaks corresponding to the left ventricular suction and the atrial contraction. 
+
+![IMAGE ALT TEXT](https://raw.githubusercontent.com/bcnmedtech/unsupervised_multiple_kernel_learning/master/assets/Imagen%202.png)
 
 Twenty subjects have been created for each group, making a total of 100 subjects. The velocity curves are split in 4 segments, as depicted in the figure above. Each of these segments will be a feature to be used as input to the MKL algorithm. 
 
@@ -53,6 +63,25 @@ to change the configuration.
 
 After this is done, run **“Launch_MKL.m”** function
 
+## Output
+
+
+![IMAGE ALT TEXT](https://raw.githubusercontent.com/bcnmedtech/unsupervised_multiple_kernel_learning/master/assets/Imagen%201.png)
+
+
 ## Demo
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/ECA6Avzj1rQ/0.jpg)](http://www.youtube.com/watch?v=ECA6Avzj1rQ "Video Title")
 
+
+## License
+
+**Unsupervised Multiple Kernel Learning** *is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.*
+
+*Unsupervised Multiple Kernel Learning is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.You should have received a copy of the GNU General Public License along with Rocket viewer.  If not, see <http://www.gnu.org/licenses/>.*
