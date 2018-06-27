@@ -1,7 +1,7 @@
 **Affero General Public License. This licensing file applies to the Unsupervised Multiple Kernel Learning software library.**
 
 Unsupervised Multiple Kernel Learning is **© Universitat Pompeu Fabra 2018**. 
-Author: * [Sergio Sanchez-Martinez](https://www.linkedin.com/in/sersanmar/) * 
+Author: [Sergio Sanchez-Martinez](https://www.linkedin.com/in/sersanmar/) 
 Contributors: * Nicolas Duchateau, Gemma Piella, Constantine Butakoff*
 
 **Unsupervised Multiple Kernel Learning** is free software: you can redistribute it and/or modify
