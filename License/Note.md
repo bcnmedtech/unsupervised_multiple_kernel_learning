@@ -1,6 +1,6 @@
-**Affero General Public License. This licensing file applies to the Rocket viewer software library.**
+**Affero General Public License. This licensing file applies to the Unsupervised Multiple Kernel Learning software library.**
 
-Patient line family tree viewer is **© Universitat Pompeu Fabra 2018**. 
+Unsupervised Multiple Kernel Learning is **© Universitat Pompeu Fabra 2018**. 
 Author: * [Sergio Sanchez-Martinez](https://www.linkedin.com/in/sersanmar/) * 
 Contributors: * Nicolas Duchateau, Gemma Piella, Constantine Butakoff*
 
@@ -15,6 +15,6 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with Patient line family tree viewer.  If not, see <http://www.gnu.org/licenses/>.
+along with the Unsupervised Multiple Kernel Learning package.  If not, see <http://www.gnu.org/licenses/>.
 
 WRITTEN OFFER: Our source code is currently available on GitHub (https://github.com/bcnmedtech/unsupervised_multiple_kernel_learning). If you would like a copy of the third party GPL or LGPL source code contained in this product, you may find it on our Github project, otherwise pease contact bcnmedtech@upf.edu
